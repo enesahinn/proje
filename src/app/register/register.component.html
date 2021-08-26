@@ -1,0 +1,94 @@
+<div class="overlay">
+   <form [formGroup]="registerForm">
+       <div class="con">
+       <header class="head-form">
+          <h2>Üye Ol</h2>
+          <br>
+          <p>İstenen bilgileri eksiksiz bir biçimde giriniz.</p>
+       </header>
+       <br>
+       <div class="field-set">
+         
+             <span class="input-item">
+               <i class="fa fa-envelope"></i>
+             </span>
+
+             <input class="form-input" id="txt-input" type="text" placeholder="E-Mail" 
+             formControlName="email">
+         
+            <br>
+         
+             <span class="input-item">
+               <i class="fa fa-user-circle"></i>
+             </span>
+
+             <input class="form-input" id="txt-input" type="text" placeholder="Ad"
+             formControlName="name">
+         
+         
+            <br>
+
+             <span class="input-item">
+                <i class="fa fa-user-circle"></i>
+             </span>
+
+             <input class="form-input" id="txt-input" type="text" placeholder="Soyad" 
+             formControlName="surname">
+      
+             <br>
+      
+             <span class="input-item">
+                <i class="fa fa-id-card"></i>
+             </span>
+ 
+             <input class="form-input" id="txt-input" type="text" placeholder="TC Kimlik No" 
+             formControlName="identityNumber">
+
+             <br>
+
+             <span class="input-item">
+                <i class="fa fa-birthday-cake"></i>
+             </span>
+ 
+             <input class="form-input" id="txt-input" type="text" placeholder="Doğum Yılı"
+             formControlName="birthDate">
+
+            <br>
+
+             <span class="input-item">
+                <i class="fa fa-key"></i>
+             </span>
+ 
+             <input class="form-input" type="password" placeholder="Şifre" id="pwd"  name="password" 
+             formControlName="password">
+
+            <br>
+
+             <span class="input-item">
+                <i class="fa fa-phone"></i>
+             </span>
+ 
+             <input class="form-input" id="txt-input" type="text" placeholder="Telefon No" 
+             formControlName="phone">
+
+             <br>
+
+             <button (click)="register()" class="log-in"> Kayıt Ol </button>
+             </div>
+      
+        <div class="other">
+
+          <button class="btn submits frgt-pass">Şifremi Unuttum</button>
+
+          <button class="btn submits sign-up">Üye Girişi
+
+          <i class="fa fa-user-plus" aria-hidden="true"></i>
+          </button>
+
+       </div>
+         
+      </div>
+      
+    </form>
+</div>
+

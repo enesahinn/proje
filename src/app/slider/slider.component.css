@@ -1,0 +1,21 @@
+.carousel {
+    margin-top: 57px;
+}
+
+.abc{
+    margin-left: 1200px;
+    opacity: 0.8;
+    width: 500px;
+    margin-top:-400px;
+    background-color: aliceblue;
+    padding-left: 20px;
+    height: 250px;
+    border-radius: 10px;
+}
+.col-lg-12{
+    margin-top: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+

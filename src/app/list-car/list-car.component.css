@@ -1,0 +1,26 @@
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+
+.navbar{
+    color: black !important;
+    margin-top: 20px !important;
+}
+
+
+.navbar-left{
+    max-width:141px;
+}
+
+.container {
+    padding-right: -20px;
+    margin-top: -10px;
+    margin-bottom: -8px;
+    margin-left: -12px;
+}
+
+

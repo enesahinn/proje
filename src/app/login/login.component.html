@@ -1,0 +1,50 @@
+<div class="overlay">
+    <form [formGroup]="loginForm">
+       <div class="con">
+       <header class="head-form">
+          <h2>Üye Girişi</h2>
+          <br>
+          <p>Kullanıcı adınızı ve şifrenizi kullanarak buradan giriş yapınız.</p>
+       </header>
+       <br>
+       <div class="field-set">
+         
+             <span class="input-item">
+               <i class="fa fa-user-circle"></i>
+             </span>
+
+             <input class="form-input" id="txt-input" type="text" placeholder="E-Mail" 
+             formControlName="mail">
+         
+          <br>
+         
+          <span class="input-item">
+            <i class="fa fa-key"></i>
+          </span>
+
+          <input class="form-input" type="password" placeholder="Şifre" id="pwd" name="password" 
+          formControlName="password">
+         
+         <br>
+
+          <button (click)="login()" class="log-in"> Giriş Yap </button>
+       </div>
+      
+       <div class="other">
+
+          <button class="btn submits frgt-pass">Şifremi Unuttum</button>
+
+          <button class="btn submits sign-up">Kayıt Ol 
+
+          <i class="fa fa-user-plus" aria-hidden="true"></i>
+          </button>
+
+       </div>
+         
+      </div>
+      
+    </form>
+</div>
+
+    
+          
